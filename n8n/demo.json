@@ -28,7 +28,13 @@
       "position": [
         260,
         0
-      ]
+      ],
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "tutoriaOperator",
+          "name": "TutorIA local operator"
+        }
+      }
     }
   ],
   "connections": {
@@ -46,5 +52,7 @@
   },
   "settings": {
     "executionOrder": "v1"
-  }
+  },
+  "id": "tutoriaSyntheticDemo",
+  "versionId": "f2bf3230-e5b9-4652-b880-3abc58b101ef"
 }

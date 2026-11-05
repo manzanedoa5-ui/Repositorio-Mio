@@ -45,3 +45,7 @@ Abrir `android/` en Android Studio con JDK 17, SDK 35 y Gradle 8.9. No se incluy
 La etiqueta sintética representa un resultado binario ilustrativo, no una definición oficial de deserción. Antes de usar registros reales: acordar horizonte y exclusiones (egreso, suspensión), validar temporalmente sin fuga de información, medir calibración y rendimiento por grupos, elegir umbrales según capacidad de atención y operar inicialmente en modo sombra. Las métricas sintéticas no prueban eficacia real.
 
 Para producción faltan autenticación individual y permisos por tutor, auditoría con identidad, protección de datos, registro de modelos, migraciones PostgreSQL, idempotencia y seguimiento de intervenciones. Los tokens compartidos solo sirven para esta demostración local. No introducir información personal en esta demo.
+
+## Entender el modelo y el resultado
+
+Consulta [qué ejecuta el modelo, cómo revisar n8n y el resultado comprobado en Windows](docs/modelo-y-demo.md).

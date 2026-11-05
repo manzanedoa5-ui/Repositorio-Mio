@@ -55,4 +55,4 @@ docker compose -f compose.yaml -f compose.cloud.yaml build api
 
 Si los tokens estan en otro archivo, agrega `--env-file /ruta/al/archivo` despues de `compose`. Nunca desactives la verificacion TLS.
 
-El flujo Docker/n8n y las cinco pruebas fueron comprobados en Linux cloud. El script PowerShell requiere validacion en Windows. La demo usa datos sinteticos; el modelo se entrena en memoria en cada ejecucion. Android sigue pendiente de validacion.
+El flujo Docker/n8n y las cinco pruebas fueron comprobados en Linux cloud. El usuario confirmó una ejecución correcta del flujo en Docker Desktop en Windows; ver [el resultado y la explicación del modelo](../docs/modelo-y-demo.md). La demo usa datos sinteticos; el modelo se entrena en memoria en cada ejecucion. Android sigue pendiente de validacion.
